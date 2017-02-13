@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Weekend Challenge 1</title>
+<style type="text/css">
+    table{
+        width: 100%;
+        margin: 10px 0;
+        border-collapse: collapse;
+    }
+    table, th, td{
+        border: 1px solid #cdcdcd;
+    }
+    table th, table td{
+        padding: 2px;
+        text-align: left;
+    }
+    tr: nth-child(even){
+        background-color: #dddddd;
+    }
+
+
+</style>
+<script type="text/javascript" src="jquery.js"></script>
+<script src ="client.js"></script>
+</head>
+<body>
+    <h1><c><u>Vandelay Industires Employee Information</u></c></h1><br><br><br>
+    <form id="employeeInput">
+        <input type="text" id="firstName" placeholder="First Name">
+        <input type="text" id="lastName" placeholder="Last Name">
+        <input type="text" id="idNumber" placeholder="Id Number">
+        <input type="text" id="jobTitle" placeholder="Job Title">
+        <input type="number" id="annualSalary" placeholder="Annual Salary">
+        <input type="button" class="submitButton" value="Submit">
+    </form>
+    <br> <br><br>
+    <table style="width: 100%">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Id Number</th>
+                <th>Job Title</th>
+                <th>Annual Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+
+    </table>
+    <br><br><br>
+
+    <div id="totalMonthly"></div>
+
+</body>
+</html>
